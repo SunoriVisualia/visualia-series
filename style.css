@@ -5,14 +5,54 @@ h1{
 h2{
     color: white;
 }
+h5{
+    color:white;
+}
+h4{
+    color:white;
+    font-size: 55px;
+}
 
 p{
+    font-size: 18px;
     color: white;
 }
 
 body{
-    background-color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(landscape.jpg);
 }
+
+.header{
+    background-color: rgba(0, 0, 0, 0.212);
+    height: 80px;
+    margin: 10px;
+}
+nav ul li{
+    font-size: 35px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    color: antiquewhite;
+    letter-spacing: 0.2rem;
+}
+ul li a:hover{
+    color: brown;
+    text-decoration:underline ;
+}
+.menu li{
+    float: left;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+
 
 #carte{
     width: 800px;
